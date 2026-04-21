@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #fafafa;
+  --color-utility: #eeeeee;
+  --color-body: #333333;
+  --color-heading: #1a1a1a;
+}
+
+.dark {
+  --color-background: #1a1a1a;
+  --color-utility: #333333;
+  --color-body: #eeeeee;
+  --color-heading: #fafafa;
+}
