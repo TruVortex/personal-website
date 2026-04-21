@@ -45,7 +45,7 @@ const projects: Project[] = [
     id: 433238901,
     name: "Templates",
     html_url: "https://github.com/TruVortex/Templates",
-    description: "Compilation of templates for competitive in C++ and Python.",
+    description: "Compilation of templates for competitive programming in C++ and Python.",
     techStack: "C++, Python"
   },
   {
