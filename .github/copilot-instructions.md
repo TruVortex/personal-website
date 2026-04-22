@@ -20,7 +20,7 @@ This project is a personal website for Henry Bao.
 ## 3. Design Tokens
 Strictly enforce these exact colors by modifying the `tailwind.config` file. Do not use default Tailwind colors (e.g., `text-black` or `bg-white`). Never use pure black (`#000000`) or pure white (`#FFFFFF`).
 
-The website must feature a theme toggle button. The transition between themes must be smooth (e.g., using Tailwind's `transition-colors duration-300`).
+The website must feature a theme toggle button. The transition between themes must be smooth (e.g., using Tailwind's `transition-colors duration-300`). Moreover, any buttons should use SVG icons (e.g., from lucide-react) rather thank bulky buttons. 
 
 **Light Theme (Default):**
 *   **Background:** `#FAFAFA`
