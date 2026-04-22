@@ -13,7 +13,12 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Henry Bao",
-  description: "Personal website of Henry Bao."
+  description: "Personal website of Henry Bao.",
+  icons: {
+    icon: "/signature.png",
+    shortcut: "/signature.png",
+    apple: "/signature.png"
+  }
 };
 
 export default function RootLayout({
