@@ -48,7 +48,7 @@ export default function HomePage() {
             <Github size={20} />
           </a>
           <a
-            href="mailto:h39bao@uwaterloo.ca"
+            href="mailto:henry.bao@uwaterloo.ca"
             aria-label="Email"
             className="text-body transition-colors duration-300 hover:text-heading"
           >
