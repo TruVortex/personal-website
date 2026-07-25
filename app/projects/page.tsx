@@ -18,7 +18,8 @@ export default async function ProjectsPage() {
         <div className="mx-auto w-full max-w-3xl">
           <p className="px-4 text-body sm:px-6">
             A selection of my favourite projects encompassing various areas of software. More
-            projects can be found on my Github.
+            projects can be found on my Github. Click <i>More Details</i> for longer descriptions
+            of each project.
           </p>
 
           <div className="mt-8 border-y border-utility">
@@ -53,9 +54,9 @@ export default async function ProjectsPage() {
 
                 {project.longDescription && project.longDescription.length > 0 ? <ProjectDetailsToggle longDescription={project.longDescription} /> : null}
 
-                <p className="mt-3 text-sm text-body/80">
+                {/* <p className="mt-3 text-sm text-body/80">
                   <span className="text-body">Language:</span> {project.techStack}
-                </p>
+                </p> */}
               </article>
             ))}
           </div>

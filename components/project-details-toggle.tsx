@@ -21,20 +21,20 @@ export function ProjectDetailsToggle({ longDescription }: ProjectDetailsTogglePr
         aria-expanded={open}
         className="relative inline-block h-5 w-[8rem] whitespace-nowrap text-left font-sans text-sm leading-5"
       >
-        <span className="invisible">More details</span>
+        <span className="invisible">More Details</span>
         <span
-          className={`absolute left-0 top-0 transition-colors duration-300 ${
+          className={`absolute left-0 top-0 transition-colors duration-300 italic ${
             open ? "text-transparent" : "text-body"
           }`}
         >
-          More details
+          More Details
         </span>
         <span
-          className={`absolute left-0 top-0 transition-colors duration-300 ${
+          className={`absolute left-0 top-0 transition-colors duration-300 italic ${
             open ? "text-body" : "text-transparent"
           }`}
         >
-          Less details
+          Less Details
         </span>
       </button>
       <p
